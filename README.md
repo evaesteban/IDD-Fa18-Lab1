@@ -20,9 +20,11 @@ We've copied the questions from the lab here. Answer them below!
  There are 4 stripes, which are red, red, black, black, brown. The first red indicates 2, the second red indicates 2, the first black indicates 0, the second black indicates a power of 1, and the final brown stripe indicates 1% tolerance. 
  
 **b. What do you have to do to light your LED?**
-
+Set up the circuit specified in the lab and press the button continuously to create power continuity. When the button is released, the LED stops emitting light.
 
 ## Part C. Blink a LED using Arduino
+
+
 
 ### 1. Blink the on-board LED
 
