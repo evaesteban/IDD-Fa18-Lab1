@@ -1,6 +1,6 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
+**A lab report by Eva Pilar Esteban Velasco**
 
 **Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
 
@@ -46,6 +46,7 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+[Blink_Lab1.ino]
 
 ### 2. Blink your LED
 
