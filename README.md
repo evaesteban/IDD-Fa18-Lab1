@@ -24,17 +24,25 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 ## Part C. Blink a LED using Arduino
 
-![Test](Inbuilt_Blink.png)
-
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+Following the Blink example, the first line of code that needs to be added for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite can be used to give a high or low voltage to the LED. Between each digitalWrite a delay can be added to keep the LED off for the amount of time needed. 
+
+![Test](Inbuilt_Blink.png)
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+The delay() function between the digitalWrites. It measures the time in milliseconds, so delay(1000) will create a delay of 1 second.
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+A resistor. 
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
+At 10 milliseconds delay I can no longer perceive that the LED is blinking. One of the ways to prove that it is in fact still blinking would be to make a video of it and watch it on slow motion.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
