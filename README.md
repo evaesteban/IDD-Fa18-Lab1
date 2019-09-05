@@ -24,7 +24,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 ## Part C. Blink a LED using Arduino
 
-
+![Test](Inbuilt_Blink.png)
 
 ### 1. Blink the on-board LED
 
