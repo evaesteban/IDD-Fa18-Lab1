@@ -28,7 +28,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
-Following the Blink example, the first line of code that needs to be added for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite can be used to give a high or low voltage to the LED. Between each digitalWrite a delay can be added to keep the LED off for the amount of time needed. 
+Following the Blink example, the first line of code that needs to be added for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite can be used to give a high or low voltage to the LED. Between each digitalWrite a delay can be added to keep the LED off for the amount of time needed. I personally chose to use a delay of 2 seconds.
 
 ![Test](Inbuilt_Blink.png)
 
@@ -59,13 +59,21 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+Yes, the LED lights up throughout the whole range of the potentiomenter because the resistance does not go high enough to now allow the minimum amount of current that the LED needs to light up to flow. It glows lighter when the resistance of the potentiometer is set higher and dimmer when the resistance is set to lower values. 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+The led variable needs to be set to 11 instead of 9.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+analogWrite(pin, value) is a function to set the duty cycle of the specified pin. The range for the value field is 0 to 255, where 0 indicates always off and 255 indicates always on.
+
+digitalWrite(pin, value) sets the pin to either a HIGH (5 volts or 3.3 volts depending on the Arduino board) or a LOW (0 volts) state. These states are set in the "value" field of the function.
+
+Therefore, while digitalWrite() only allows us to turn an LED on or off, analogueWrite() allows us to make the LED shine brighter or lower.
 
 ## Part F. FRANKENLIGHT!!!
 
