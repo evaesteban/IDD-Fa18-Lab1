@@ -28,7 +28,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
-Following the Blink example, the first line of code that needs to be added for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite can be used to give a high or low voltage to the LED. Between each digitalWrite a delay can be added to keep the LED off for the amount of time needed. I personally chose to use a delay of 2 seconds.
+Following the Blink example, the first line of code that needs to be added to the blank Arduino code for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite can be used to give a high or low voltage to the LED. Between each digitalWrite a delay can be added to keep the LED off for the amount of time needed. I personally chose to use a delay of 2 seconds. In the case where the Blink example is loaded directly, no lines of code need to be changed and the built-in LED will blink every second.
 
 ![Test](Inbuilt_Blink.png)
 
