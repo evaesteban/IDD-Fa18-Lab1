@@ -86,6 +86,8 @@ There is a computation and memory unit that allows the device to perform the cal
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The device is powered with a battery. In this case the battery is a Panasonic RO3 AAA battery. Since AAA batteries usually give 1.5 volts, this is the voltage that the battery is putting into the circuit. I could not identify any power regulators, therefore I concluded that the system is working at 1.5 volts primarily.
+
 **d. Is information stored in your device? Where? How?**
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
