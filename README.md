@@ -80,6 +80,7 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+There is a computation and memory unit that allows the device to perform the calculations and store some limited information. This is the component labelled as U101 that is protected by the black material forming a circle.  I think the processing unit receives the information from the buttons and performs the mathematical computations. It also stores the necessary information while the user is inputting the numbers to perform the calculations on, and can also hold or remove a value in memory if the user presses the M+ button or the M- button respectively.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
