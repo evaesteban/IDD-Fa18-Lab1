@@ -47,7 +47,7 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[Blink Button Video Link](Blink_C2_Muted.mp4)
 
 
 ## Part D. Manually fade an LED
@@ -84,8 +84,7 @@ Yes, there are some sensors on the device. When looking inside the device from a
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
-The device is powered by a Panasonic RO3 AAA battery. Researching I found that AAA batteries outuput a voltage of 1.5 volts. The only electronic components I could identify on the PCB were the power battery, the processors, several capacitors and numerous tests points. The capacitors could be used to smooth voltage, but not to output a constant voltage value regardless of the input voltage value like standard voltage regulators do. Since I could not identify any voltage regulators, I concluded that the circuit operates at 1.5 volts. 
-
+The device is powered by a Panasonic RO3 AAA batter of 1.5 volts. The only electronic components I could identify on the PCB were the power battery, the processors, several capacitors and numerous tests points. The capacitors could be used to smooth voltage, but not to output a constant voltage value regardless of the input voltage value like standard voltage regulators do. Since I could not identify any voltage regulators, I concluded that the circuit operates at 1.5 volts. 
 
 **d. Is information stored in your device? Where? How?**
 
@@ -93,7 +92,7 @@ Yes, information is stored in the processing unit. Microprocessors usually store
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-First, an LED was implanted between the battery and the circuit, but it did not light up. After research LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator. 
+First, an LED was implanted between the battery and the circuit, but it did not light up. After researching LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator to build a light. In this case, I provided power from the computer USB port to the Metro Mini and provided 5 volts from the metro mini into the circuit. These 5 volts are fed to the LED. I chose a blue LED because blue LEDs usually drop between 3 and 3.3 volts, which is the highest drop out of all the LED colors available to me with the kit. Since 5 - 3.3 = 1.7 volts, I added a resistor to drop the voltage closer to 1.5 volts and feed this resulting voltage to the calculator. In this way, the calculator is still being powered with approximately the voltage it received from the battery, but it has been hijacked to incorporate an LED light. A further improvement to this design would be to add a button to turn the LED on/off, but in this case I want the LED to indicate power on/off so I avoided using the button.
 
 ### 3. Build your light!
 
