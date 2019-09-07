@@ -76,8 +76,10 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 
 I chose a calculator as my electronic device.
 
-[Calculator Front Picture Link](Calculator_Front.jpeg)
-[Calculator Back Picture Link](Calculator_Back.jpeg)
+[Calculator Front Picture Link](Calculator_Front.jpeg)  
+
+[Calculator Back Picture Link](Calculator_Back.jpeg)  
+
 [Calculator Schematic Link](Calculator_Diagram.jpeg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
