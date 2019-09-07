@@ -25,7 +25,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 Following the Blink example, the first line of code that needs to be added to a blank Arduino code for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite() can be used to give a high or low voltage to the LED. Between each digitalWrite() a delay can be added to keep the LED on/off for the amount of time needed. I personally chose to use a delay of 2 seconds. In the case where the Blink example code is loaded directly, no lines of code need to be changed and the built-in LED will blink every second.
 
-![Blink](Inbuilt_Blink.png)
+[Blink In-built LED Code Link](Inbuilt_Blink.png)
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
@@ -41,13 +41,13 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-![Blink Code](Blink_Lab1.ino)
+[Blink Own LED Code Link](Blink_Lab1.ino)
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-![Blink Button Video](Blink_C2_Muted.mp4)
+[Blink Button Video Link](Blink_C2_Muted.mp4)
 
 
 ## Part D. Manually fade an LED
@@ -74,9 +74,9 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-![Calculator Front Picture] (Calculator_Front.jpeg)
-![Calculator Back Picture] (Calculator_Back.jpeg)
-![Calculator Schematic] (Calculator_Diagram.jpeg)
+[Calculator Front Picture Link] (Calculator_Front.jpeg)
+[Calculator Back Picture Link] (Calculator_Back.jpeg)
+[Calculator Schematic Link] (Calculator_Diagram.jpeg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
@@ -102,9 +102,9 @@ First, an LED was implanted between the battery and the circuit, but it did not 
 
 **Make a video showing off your Frankenlight.**
 
-![Frankenlight Video](Frankenlight_3.mp4)
+[Frankenlight Video Link](Frankenlight_3.mp4)
 
 **Include any schematics or photos in your lab write-up.**
 
-![Frankenlight Schematic](Frankenlight_Diagram.jpeg)
+[Frankenlight Schematic Link](Frankenlight_Diagram.jpeg)
 
