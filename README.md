@@ -41,13 +41,13 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-[Blink Code](Blink_Lab1.ino)
+![Blink Code](Blink_Lab1.ino)
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[Blink Button Video Link](Blink_C2_Muted.mp4)
+![Blink Button Video](Blink_C2_Muted.mp4)
 
 
 ## Part D. Manually fade an LED
@@ -74,6 +74,10 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+![Calculator Front Picture] (Calculator_Front.jpeg)
+![Calculator Back Picture] (Calculator_Back.jpeg)
+![Calculator Schematic] (Calculator_Diagram.jpeg)
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
 There is a computation unit or processor that allows the device to perform the calculations and to store some limited information. This is the component labelled as U101 that is protected by the black material forming a circle. I think the processing unit receives the information from the buttons and performs the mathematical computations. It also stores the necessary information while the user is inputting the numbers to perform the calculations on, and has capacity to hold or remove a value in memory if the user presses the M+ button or the M- button respectively.
@@ -95,4 +99,12 @@ Yes, information is stored in the processing unit. Microprocessors usually store
 First, an LED was implanted between the battery and the circuit, but it did not light up. After researching LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator to build a light. In this case, I provided power from the computer USB port to the Metro Mini and provided 5 volts from the metro mini into the circuit. These 5 volts are fed to the LED. I chose a blue LED because blue LEDs usually drop between 3 and 3.3 volts, which is the highest drop out of all the LED colors available to me with the kit. Since 5 - 3.3 = 1.7 volts, I added a resistor to drop the voltage closer to 1.5 volts and feed this resulting voltage to the calculator. In this way, the calculator is still being powered with approximately the voltage it received from the battery, but it has been hijacked to incorporate an LED light. A further improvement to this design would be to add a button to turn the LED on/off, but in this case I want the LED to indicate power on/off so I avoided using the button.
 
 ### 3. Build your light!
-[Frankenlight Video Link](Frankenlight_3.mp4)
+
+**Make a video showing off your Frankenlight.**
+
+![Frankenlight Video](Frankenlight_3.mp4)
+
+**Include any schematics or photos in your lab write-up.**
+
+![Frankenlight Schematic](Frankenlight_Diagram.jpeg)
+
