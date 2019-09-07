@@ -74,8 +74,13 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-[Calculator Front Picture Link] (Calculator_Front.jpeg),
+I chose a calculator as my electronic device. The picture below shows the front of the calculator.
+[Calculator Front Picture Link] (Calculator_Front.jpeg)
+
+The following picture shows the back of the calculator.
 [Calculator Back Picture Link] (Calculator_Back.jpeg)
+
+Finally, this picture shows the schematic of the calculator.
 [Calculator Schematic Link] (Calculator_Diagram.jpeg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
