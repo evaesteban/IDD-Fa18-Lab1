@@ -74,7 +74,7 @@ Therefore, while digitalWrite() only allows us to turn an LED on or off, analogu
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-[Calculator Front Picture Link] (Calculator_Front.jpeg)
+[Calculator Front Picture Link] (Calculator_Front.jpeg),
 [Calculator Back Picture Link] (Calculator_Back.jpeg)
 [Calculator Schematic Link] (Calculator_Diagram.jpeg)
 
