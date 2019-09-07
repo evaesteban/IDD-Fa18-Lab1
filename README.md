@@ -93,7 +93,7 @@ Yes, information is stored in the processing unit. Microprocessors usually store
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+First, an LED was implanted between the battery and the circuit, but it did not light up. After research LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator. 
 
 ### 3. Build your light!
 
