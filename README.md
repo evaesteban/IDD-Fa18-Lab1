@@ -4,7 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+[Breadboard](Breadboard_A.jpeg)
 
 
 ## Part B. Manually Blink a LED
@@ -25,7 +25,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 Following the Blink example, the first line of code that needs to be added to a blank Arduino code for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite() can be used to give a high or low voltage to the LED. Between each digitalWrite() a delay can be added to keep the LED on/off for the amount of time needed. I personally chose to use a delay of 2 seconds. In the case where the Blink example code is loaded directly, no lines of code need to be changed and the built-in LED will blink every second.
 
-![Test](Inbuilt_Blink.png)
+![Blink](Inbuilt_Blink.png)
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
