@@ -106,9 +106,9 @@ First, an LED was implanted between the battery and the circuit, but it did not 
 
 **Make a video showing off your Frankenlight.**
 
-[Frankenlight Video Link](Frankenlight_3.mp4)
+[Frankenlight Video Link](Frankenlight_Video_3.mp4)
 
 **Include any schematics or photos in your lab write-up.**
 
-[Frankenlight Schematic Link](Frankenlight_Diagram.jpeg)
+[Frankenlight Schematic Link](Frankenlight_Diagram_2.jpeg)
 
