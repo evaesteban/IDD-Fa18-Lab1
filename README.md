@@ -84,10 +84,12 @@ Yes, there are some sensors on the device. When looking inside the device from a
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
-The device is powered by a Panasonic RO3 AAA battery. Researching I found that AAA batteries outuput a voltage of 1.5 volts. 
+The device is powered by a Panasonic RO3 AAA battery. Researching I found that AAA batteries outuput a voltage of 1.5 volts. The only electronic components I could identify on the PCB were the power battery, the processors, several capacitors and numerous tests points. The capacitors could be used to smooth voltage, but not to output a constant voltage value regardless of the input voltage value like standard voltage regulators do. Since I could not identify any voltage regulators, I concluded that the circuit operates at 1.5 volts. 
 
 
 **d. Is information stored in your device? Where? How?**
+
+Yes, information is stored in the processing unit. Microprocessors usually store the information in registers, so I concluded that this is how the calculator works. The processing unit can then perform mathemtical operations with the information stored in these registers and output the correct results. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
