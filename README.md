@@ -23,7 +23,7 @@ Set up the circuit specified in the lab and press the button continuously to cre
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
-Following the Blink example, the first line of code that needs to be added to a blank Arduino code for the built-in LED to blink is the set-up of the LED as an output. Then, in the loop, digitalWrite() can be used to give a high or low voltage to the LED. Between each digitalWrite() a delay can be added to keep the LED on/off for the amount of time needed. I personally chose to use a delay of 2 seconds. In the case where the Blink example code is loaded directly, no lines of code need to be changed and the built-in LED will blink every second.
+Following the Blink example, the first line of code that needs to be added to a blank Arduino code for the built-in LED to blink is the set-up of the LED pin as an output. Then, in the loop, digitalWrite() can be used to give a high or low voltage to the LED. Between each digitalWrite() a delay can be added to keep the LED on/off for the amount of time needed. I personally chose to use a delay of 2 seconds. In the case where the Blink example code is loaded directly, no lines of code need to be changed and the built-in LED will blink every 1 second.
 
 [Blink In-built LED Code Link](Inbuilt_Blink.png)
 
@@ -54,7 +54,7 @@ At 10 milliseconds delay I can no longer perceive that the LED is blinking. One 
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
-Yes, the LED lights up throughout the whole range of the potentiomenter because the resistance of the potentiometer does not go high enough to now allow for the minimum amount of current that the LED needs to light up to flow. The LED glows lighter when the resistance of the potentiometer is set higher, and dimmer when the resistance is set to lower values. 
+Yes, the LED lights up throughout the whole range of the potentiomenter because the resistance of the potentiometer does not go high enough to now allow for the minimum amount of voltage that the LED needs to light up to flow. The LED glows lighter when the resistance of the potentiometer is set higher, and dimmer when the resistance is set to lower values. 
 
 ## Part E. Fade an LED using Arduino
 
@@ -66,7 +66,7 @@ The "led" variable needs to be set to 11 instead of 9.
 
 analogWrite(pin, value) is a function to set the duty cycle of the specified pin. The range for the "value" field is 0 to 255, where 0 indicates always off and 255 indicates always on.
 
-digitalWrite(pin, value) sets the pin to either a HIGH (5 volts or 3.3 volts depending on the Arduino board) or a LOW (0 volts) state. These states are set in the "value" field of the function.
+digitalWrite(pin, value) sets the pin to either a HIGH (5 volts or 3.3 volts depending on the Arduino type) or a LOW (0 volts) state. These states are set in the "value" field of the function.
 
 Therefore, while digitalWrite() only allows us to turn an LED on or off, analogueWrite() allows us to make the LED shine brighter or dimmer.
 
@@ -84,7 +84,7 @@ I chose a calculator as my electronic device.
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
-There is a computation unit or processor that allows the device to perform the calculations and to store some limited information. This is the component labelled as U101 that is protected by the black material forming a circle. I think the processing unit receives the information from the buttons and performs the mathematical computations. It also stores the necessary information while the user is inputting the numbers to perform the calculations on, and has capacity to hold or remove a value in memory if the user presses the M+ button or the M- button respectively.
+There is a computation unit or processor that allows the device to perform the calculations and to store some limited information. This is the component labelled as U101 that is protected by the black material in the shape of a circle. I think the processing unit receives the information from the buttons and performs the mathematical computations. It also stores the necessary information while the user is inputting the numbers to perform the calculations on, and has capacity to hold or remove a value in memory if the user presses the M+ button or the M- button respectively.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
@@ -96,11 +96,11 @@ The device is powered by a Panasonic RO3 AAA batter of 1.5 volts. The only elect
 
 **d. Is information stored in your device? Where? How?**
 
-Yes, information is stored in the processing unit. Microprocessors usually store the information in registers, so I concluded that this is how the calculator works. The processing unit can then perform mathemtical operations with the information stored in these registers and output the correct results. 
+Yes, information is stored in the processing unit. Microprocessors store the information in registers, so I concluded that this is how the calculator works. The processing unit can then perform mathemtical operations with the information stored in these registers and output the correct results. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-First, an LED was implanted between the battery and the circuit, but it did not light up. After researching LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator to build a light. In this case, I provided power from the computer USB port to the Metro Mini and provided 5 volts from the metro mini into the circuit. These 5 volts are fed to the LED. I chose a blue LED because blue LEDs usually drop between 3 and 3.3 volts, which is the highest drop out of all the LED colors available to me with the kit. Since 5 - 3.3 = 1.7 volts, I added a resistor to drop the voltage closer to 1.5 volts and feed this resulting voltage to the calculator. In this way, the calculator is still being powered with approximately the voltage it received from the battery, but it has been hijacked to incorporate an LED light. A further improvement to this design would be to add a button to turn the LED on/off, but in this case I want the LED to indicate power on/off so I avoided using the button.
+First, an LED was implanted between the battery and the circuit, but it did not light up. After researching LED forward voltages, I concluded that most LEDs need 1.7 volts or above to light up, and since the battery used by the calculator only outputs a maximum of 1.5 volts, I decided to try a different method of hijacking the calculator to build a light. In this case, I provided power from the computer USB port to the Metro Mini and provided 5 volts from the metro mini into the circuit. These 5 volts are fed to the LED. I chose a blue LED because blue LEDs usually drop between 3 and 3.3 volts, which is the highest drop out of all the LED colors available to me with the kit. Since 5 - 3.3 = 1.7 volts, I added a resistor to drop the voltage closer to 1.5 volts and feed this resulting voltage to the calculator. In this way, the calculator is still being powered with approximately the voltage it received from the battery, but it has been hijacked to incorporate an LED light. I then improved this design by adding a button to turn the LED on/off, so that both the calculator and the led can be turned on/off as needed. .
 
 ### 3. Build your light!
 
