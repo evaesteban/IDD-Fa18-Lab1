@@ -1,5 +1,6 @@
 /*
- ECE 5413: Developing and Designing Interactive Devices Laboratory 1
+ ECE 5413: Developing and Designing Interactive Devices 
+ Laboratory 1 Part C Exercise 2
  Author: Eva Pilar Esteban Velasco
  Date: 09/05/2019
 */
